@@ -5,7 +5,8 @@
 const array = [1, 2, 3, 4, 5, 6, 7];
 
 // ==========================================Splice========================================
-const arrayNew = array.splice(4, 1)
+const index = array.indexOf(5)
+const arrayNew = array.splice(index, 1)
 console.log(array);
 
 // =========================================For + Splice===================================
